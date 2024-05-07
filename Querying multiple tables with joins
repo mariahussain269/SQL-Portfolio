@@ -1,0 +1,38 @@
+/* Create table about the people and what they do here */
+
+CREATE TABLE famous_people (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    fullname TEXT,
+    age INTEGER);
+
+
+INSERT INTO famous_people (fullname, age) VALUES ("Elyse Myers", 28);
+INSERT INTO famous_people (fullname, age) VALUES ("Cher", 76);
+INSERT INTO famous_people(fullname, age) VALUES ("Tina Turner", 83);
+INSERT INTO famous_people (fullname, age) VALUES ("Selena Gomez", 30);
+INSERT INTO famous_people (fullname, age) VALUES ("Henry Cavill", 39);
+SELECT * FROM famous_people;
+
+CREATE table occupations (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    person_id INTEGER,
+    name TEXT);
+
+INSERT INTO occupations (person_id, name) VALUES (1, "influencer");
+INSERT INTO occupations (person_id, name) VALUES (1, "comedian");
+INSERT INTO occupations (person_id, name) VALUES (2, "singer");
+INSERT INTO occupations (person_id, name) VALUES (2, "actress");
+INSERT INTO occupations (person_id, name) VALUES (3, "singer");
+INSERT INTO occupations (person_id, name) VALUES (3, "actress");
+INSERT INTO occupations (person_id, name) VALUES (4, "producer");
+INSERT INTO occupations (person_id, name) VALUES (4, "makeup artist");
+INSERT INTO occupations (person_id, name) VALUES (5, "actor");
+INSERT INTO occupations (person_id, name) VALUES (5, "world of warcraft player");
+SELECT * FROM occupations;
+
+
+SELECT famous_people.fullname, famous_people.age, occupations.name
+    FROM famous_people
+    JOIN occupations
+    ON famous_people.id = occupations. person_id
+    
