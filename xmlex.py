@@ -1,5 +1,5 @@
 
-# importing urliib capabilities to enable requesting of http requests and parsing including handling any URL errors
+# importing urllib capabilities to enable requesting of http requests and parsing including handling any URL errors
 
 
 import urllib.request, urllib.parse, urllib.error
@@ -14,7 +14,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 
-#Prompting for a URL
+# Prompting for a URL
 
 counter = 0 
 
