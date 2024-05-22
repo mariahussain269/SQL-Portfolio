@@ -1,4 +1,4 @@
-/* Create table about the people and what they do here */
+/* Create database detailing individuals and their occupations */
 
 CREATE TABLE famous_people (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -30,9 +30,19 @@ INSERT INTO occupations (person_id, name) VALUES (5, "actor");
 INSERT INTO occupations (person_id, name) VALUES (5, "world of warcraft player");
 SELECT * FROM occupations;
 
+--display the database ordered by individual age
 
 SELECT famous_people.fullname, famous_people.age, occupations.name
     FROM famous_people
     JOIN occupations
     ON famous_people.id = occupations. person_id
+    ORDER BY age desc;
+
+
+--How many are singers? 
+SELECT COUNT(*)
+FROM famous_people
+JOIN occupations
+ON famous_people.id = occupations.person_id
+WHERE occupations.name = 'singer';
     
