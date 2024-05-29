@@ -29,7 +29,7 @@ I'm Maria, a passionate Data Analyst with a strong background in statistics, dat
 ### 3. Webscraping 
 
 - **Description**: Webscraping and extracting information.
-- **Technologies Used**: Python
+- **Technologies Used**: Python, SQL
 - [**Repository Link**](https://github.com/mariahussain269/SQL-Portfolio/blob/main/Webscrape.py)
 
 ## Contact Me
