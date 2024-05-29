@@ -46,6 +46,6 @@ Feel free to reach out if you have any questions about my projects, want to coll
 
 - I love walking and being in nature.
 - I'm an avid reader and enjoy fictional books and autobiographies.
-- I'm always on the lookout for new destinations to travel to.
+- I'm always on the lookout for new destinations to travel to and once travelled non-stop around Europe for two months.
 
 Thank you for visiting my profile! 😊
