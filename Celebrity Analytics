@@ -1,10 +1,11 @@
-/* Create database detailing individuals and their occupations */
+/* Create table within database detailing individuals and their occupations */
 
 CREATE TABLE famous_people (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     fullname TEXT,
     age INTEGER);
 
+/* Insert data into table /*
 
 INSERT INTO famous_people (fullname, age) VALUES ("Elyse Myers", 28);
 INSERT INTO famous_people (fullname, age) VALUES ("Cher", 76);
