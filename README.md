@@ -1,7 +1,7 @@
 # SQL-Portfolio
 Welcome!👋  This repository is intended to share some of the SQL and Python projects I have completed throughout my time as a Data Analyst.
 
-I'm Maria, a passionate Data Analyst with a strong background in statistics, data visualization, and machine learning. I thrive on turning data into actionable insights and making data-driven decisions to solve complex problems.
+I'm Maria, a Data Analyst with a passion for statistics, data visualization, and machine learning. I thrive on turning data into actionable insights and making data-driven decisions to solve complex problems.
 
 ## My Skill Set
 
@@ -16,19 +16,22 @@ I'm Maria, a passionate Data Analyst with a strong background in statistics, dat
 
 ### 1. Spotify Analytics
 
-- **Description**: Performed exploratory analysis to identify the Top 10 most popular artists worldwide, artisits with most tracks trending, etc.
+- **Description**: Conducted an exploratory analysis to identify the Top 10 most popular artists globally and artists with the highest number of trending tracks. These insights enable music streaming platforms and marketers to focus on high-demand artists, optimize playlist curation, and personalize user recommendations, enhancing user engagement and satisfaction. The findings also support strategic decisions for partnership opportunities and promotional campaigns.
+- 
 - **Technologies Used**: Python, SQL
 - [**Repository Link**](https://github.com/mariahussain269/SQL-Portfolio/blob/main/spotify-most-popular-songs-2023.py)
 
 ### 2. Celebrity Analysis
 
-- **Description**: Created and analysed several tables using SQL
+- **Description**: Performed an analysis of celebrity data to understand trends in popularity, engagement, and influence across demographics. This analysis provided key insights that can guide targeted marketing strategies, optimize talent partnerships, and enhance audience targeting. By identifying the most impactful celebrities across different segments, the findings support data-driven decision-making in brand endorsements and digital campaigns, ultimately boosting reach and engagement.
+  
 - **Technologies Used**: SQL
-- [**Repository Link**](https://github.com/mariahussain269/SQL-Portfolio/blob/main/Querying%20multiple%20tables%20with%20joins)
+- [**Repository Link**](https://github.com/mariahussain269/SQL-Portfolio/blob/main/Celebrity%20Analytics)
 
 ### 3. Webscraping 
 
-- **Description**: Webscraping and extracting information.
+- **Description**: Developed a Python-based web scraping tool to collect and analyze online data, automating the extraction of valuable insights from websites. Here I have determined which universities are the most active organisations in an email chain.  This tool could also be used by businesses to monitor competitor activity, track trending products, and gather real-time data on customer preferences. By leveraging these insights, businesses can enhance their market strategy, optimize inventory based on demand patterns, and make more informed decisions to stay competitive.
+  
 - **Technologies Used**: Python, SQL
 - [**Repository Link**](https://github.com/mariahussain269/SQL-Portfolio/blob/main/Webscrape.py)
 
