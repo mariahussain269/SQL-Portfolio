@@ -17,7 +17,7 @@ I'm Maria, a Data Analyst with a passion for statistics, data visualization, and
 ### 1. Spotify Analytics
 
 - **Description**: Conducted an exploratory analysis to identify the Top 10 most popular artists globally and artists with the highest number of trending tracks. These insights enable music streaming platforms and marketers to focus on high-demand artists, optimize playlist curation, and personalize user recommendations, enhancing user engagement and satisfaction. The findings also support strategic decisions for partnership opportunities and promotional campaigns.
-- 
+  
 - **Technologies Used**: Python, SQL
 - [**Repository Link**](https://github.com/mariahussain269/SQL-Portfolio/blob/main/spotify-most-popular-songs-2023.py)
 
