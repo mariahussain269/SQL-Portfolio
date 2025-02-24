@@ -1,4 +1,6 @@
-#For this project, I used python to connect to SQL and create tables and insert data from a Spotify dataset downloaded from Kaggle. I then analyzed the data using SQL
+#For this project, I used python to connect to SQL.
+# I created tables and inserted data from a Spotify dataset downloaded from Kaggle.
+#I then analyzed the data to determine top tracks, top artists by number of streams, etc.
 
 
 import sqlite3
